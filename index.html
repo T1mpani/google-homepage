@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<style>
+   body {
+       display: grid;
+        grid-template-rows: 30px 2fr 1fr 30px;
+   }
+    header {
+       font-family: arial, sans-serif;
+        font-size: 13px;
+   }
+   footer {
+       font-family: arial, sans-serif;
+       font-size: 14px;
+        background-color: rgba(5, 5, 5, .05);
+
+    }
+
+   input {
+       border-radius: 18px;
+       border-color: rgba(5, 5, 5, .1);
+       border-width: 1px;
+       width: 33%;
+       height: 33%;
+
+   }
+   button {
+       margin: 10px;
+        padding: 10px;
+        border-width: 0px;
+        border-radius: 4px;
+
+    }
+   #google-logo {
+        width: 300px;
+     }
+
+    #grid-logo {
+        width: 20px;
+    }
+    a {
+        text-decoration-color: rgba(0, 0, 0, 0);
+        color:rgba(5, 5, 5, 0.7);
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+</style>
+
+<body>
+<header class="header-footer">
+    <a href="#">About</a>
+    <a href="#">Store</a> 
+    <a href="#">Gmail</a>
+    <a href="#">Images</a>
+<a href="#"><img id="grid-logo" src="https://image.flaticon.com/icons/svg/60/60991.svg" alt="applications grid"></a>
+</header>
+    <img id="google-logo" src="https://cdn.vox-cdn.com/thumbor/8tLchaDMIEDNzUD3mYQ7v1ZQL84=/0x0:2012x1341/920x613/filters:focal(0x0:2012x1341):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/47070706/google2.0.0.jpg" alt="google logo">
+    <form action="search">
+        <input type="text">
+            <div>
+            <button type="submit" class="button">Google Search</button>
+            <button type="submit" class="button">I'm Feeling Lucky</button>
+            </div>
+    </form>
+<div>
+    <footer class="footer">
+        <a href="#">Advertising</a> 
+        <a href="#">Business</a>
+        <a href="#">How Search works</a>
+        <a href="#">Privacy</a> 
+        <a href="#">Terms</a> 
+    </footer>
+</div>
+</body>
+</html>
