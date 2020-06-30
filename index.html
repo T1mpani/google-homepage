@@ -3,35 +3,48 @@
    body {
        display: grid;
         grid-template-rows: 30px 2fr 1fr 30px;
+        grid-gap: 5px;
    }
     header {
-       font-family: arial, sans-serif;
+       display: grid;
+        font-family: arial, sans-serif;
         font-size: 13px;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
    }
    footer {
-       font-family: arial, sans-serif;
+    display: grid;   
+    font-family: arial, sans-serif;
        font-size: 14px;
         background-color: rgba(5, 5, 5, .05);
-
+        height: 40px;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        
     }
 
    input {
-       border-radius: 18px;
+       border-radius: 24px;
        border-color: rgba(5, 5, 5, .1);
        border-width: 1px;
-       width: 33%;
-       height: 33%;
+       width: 450px;
+       height: 40px;
 
+   }
+   input:hover {
+       box-shadow: 
+   }
+   form {
+       justify-self: center;
    }
    button {
        margin: 10px;
         padding: 10px;
         border-width: 0px;
         border-radius: 4px;
-
     }
    #google-logo {
         width: 300px;
+        justify-self: center;
+        align-self: flex-end;
      }
 
     #grid-logo {
@@ -47,7 +60,7 @@
 </style>
 
 <body>
-<header class="header-footer">
+<header>
     <a href="#">About</a>
     <a href="#">Store</a> 
     <a href="#">Gmail</a>
@@ -58,12 +71,12 @@
     <form action="search">
         <input type="text">
             <div>
-            <button type="submit" class="button">Google Search</button>
-            <button type="submit" class="button">I'm Feeling Lucky</button>
+            <button type="submit">Google Search</button>
+            <button type="submit">I'm Feeling Lucky</button>
             </div>
     </form>
 <div>
-    <footer class="footer">
+    <footer>
         <a href="#">Advertising</a> 
         <a href="#">Business</a>
         <a href="#">How Search works</a>
