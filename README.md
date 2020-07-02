@@ -1,1 +1,1 @@
-This is the first project being put together by T1mpani. 
+This is the first project put together by T1mpani. T1mpani learned not to obsess so much about minutia until the very end. T1mpani also learned that there are several solutions for any one problem, but that knowing best-practices is a good starting point. This is not, on looking back, how the project would have started had the architect known at the beginning what is known at the end, in retrospect. But I guess that's what learnin' is. 
